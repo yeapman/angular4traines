@@ -1,0 +1,13 @@
+
+<div class="rows">
+<div class="left-side">
+<div class="first-link"><a [routerLink]="['./']" [class.active]="router.url.indexOf('/first-link') == -1" href="#"><h1>first-link</h1></a></div>
+<div class="secon-link"><a [routerLink]="['./']" [class.active]="false" (click)="scrollTo('second-link')"><h1>second-link</h1></a></div>
+</div>
+<div class="right-sight">
+<app-child-comp  id="first-link"> </app-child-comp>
+<app-secod-child  id="second-link"></app-secod-child>
+</div>
+</div>
+
+

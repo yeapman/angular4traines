@@ -1,0 +1,11 @@
+.rows {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  flex-grow: 1;
+}
+.right-sight {
+  flex-grow: 1;
+}

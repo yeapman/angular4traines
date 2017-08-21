@@ -1,4 +1,4 @@
-import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-child-comp',
@@ -6,11 +6,7 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
   styleUrls: ['./child-comp.component.css']
 })
 export class ChildCompComponent {
-  @Output() sonChanged = new EventEmitter<boolean>();
 
-  change(increasedMotherFucker) {
-    this.sonChanged.emit(increasedMotherFucker);
-  }
 
 
 }
